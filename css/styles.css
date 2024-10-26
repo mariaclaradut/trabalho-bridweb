@@ -142,7 +142,7 @@ main {
 }
 main .avaliacoes {
   padding: 10px;
-  font-family: "Poppins", sans serif;
+  font-family: "Poppins", sans-serif;
 }
 main .avaliacoes h1 {
   font-size: 3rem;
@@ -159,7 +159,7 @@ main .avaliacoes .cards {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .avaliacoes .cards .card-items {
+main .avaliacoes .review .review-items {
   transition: 0.5s ease-in-out;
   padding: 15px;
   width: 45%;
@@ -172,27 +172,27 @@ main .avaliacoes .cards .card-items {
   border-radius: 10px;
   margin: 1%;
 }
-main .avaliacoes .cards .card-items p {
+main .avaliacoes .review .review-items p {
   font-size: 1.1rem;
 }
-main .avaliacoes .cards .card-items .texto {
+main .avaliacoes .review .review-items .texto {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
 }
-main .avaliacoes .cards .card-items .texto h3 {
+main .avaliacoes .review .review-items .texto h3 {
   width: 60%;
   font-size: 1.3rem;
 }
-main .avaliacoes .cards .card-items .texto .estrelas {
+main .avaliacoes .review .review-items .texto .estrelas {
   width: 40%;
   text-align: right;
 }
-main .avaliacoes .cards .card-items .texto .estrelas img {
+main .avaliacoes .review .review-items .texto .estrelas img {
   transition: 0.3s ease-in-out;
 }
-main .avaliacoes .cards .card-items .texto .estrelas img:hover {
+main .avaliacoes .review .review-items .texto .estrelas img:hover {
   transform: translateY(-5%);
   filter: drop-shadow(0 0 0.75rem rgb(241, 229, 56));
 }
