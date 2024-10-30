@@ -118,21 +118,21 @@ a {
 #card-1 {
     background-image: url("../img/bolo.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     transition: 0.6s ease-in-out;
 }
 #card-2 {
     background-image: url("../img/torta.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     transition: 0.6s ease-in-out;
 }
 #card-3 {
     background-image: url("../img/docinhos.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;            
     transition: 0.6s ease-in-out;
 }
